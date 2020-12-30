@@ -1,7 +1,8 @@
 <template>
-  <div id="app">
+  <div id="app"
+    v-if="boleano"
+  >
     <Particles id="particles-js"
-      v-if="boleano"
       :options="options"
     />
     <Article 
@@ -107,7 +108,7 @@
     },
     methods: {
       async getPokemon(id) {    
-        const RES = await fetch(`https:pokeapi.co/api/v2/pokemon/${id}`),
+        const RES = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`),
               DATA = await RES.json(),
               POKEMON = {
                 img: DATA.sprites.other.dream_world.front_default,              
