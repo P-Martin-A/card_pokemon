@@ -1,0 +1,66 @@
+.card-header {
+  background-color: $grey;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  @include size(100%, 30%); 
+
+  &.fire{
+    background-color: $fire;
+  }
+
+  &.ice{
+    background-color: $ice;
+  }
+
+  &.grass{
+    background-color: $grass;
+  }
+
+  &.flying{
+    background-color: $flying;
+  }
+
+  &.steel{
+    background-color: $steel;
+  }
+
+  &.water{
+    background-color: $water;
+  }
+
+  &.electric{
+    background-color: $electric;
+  }
+
+  &.ghost{
+    background-color: $ghost;
+  }
+
+  &.fighting{
+    background-color: $fighting;
+  }
+
+  &.psychic{
+    background-color: $psychic;
+  }
+
+  &.rock{
+    background-color: $rock;
+  }
+
+  &.dark{
+    background-color: $dark;
+  }
+
+  &.ground{
+    background-color: $ground;
+  }
+
+  &.bug{
+    background-color: $bug;
+  }
+
+  &.dragon{
+    background-color: $dragon;
+  }
+}

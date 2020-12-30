@@ -1,0 +1,22 @@
+.card-footer {
+  padding: 2rem 0;
+  background-color: $white;
+  text-align: center;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  @include size(100%, 20%);
+  @include flex(center, space-around);
+  
+  .strength, .special, .defending {
+    
+    .title {
+      font-size: 1.8rem;
+      margin-bottom: .5rem;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      color: $grey;
+    }
+  }
+}

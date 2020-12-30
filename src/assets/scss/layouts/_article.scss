@@ -1,0 +1,9 @@
+.card {  
+  position: relative;
+  border-radius: 2rem;
+  min-width: 30%;
+  @include size(80%, 80%);
+  @include tablet() {
+   width: 40%; 
+  }
+}

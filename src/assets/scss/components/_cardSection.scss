@@ -1,0 +1,86 @@
+.card-section {
+  background-color: $white;
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 2rem;
+  border-bottom: .1rem solid $grey;
+  @include size(100%, 50%);
+  @include flex(flex-end, center);
+
+  .content {
+    
+    .title {
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      
+      &.fire{
+        color: $fire;
+      }
+    
+      &.ice{
+        color: $ice;
+      }
+    
+      &.grass{
+        color: $grass;
+      }
+    
+      &.flying{
+        color: $flying;
+      }
+    
+      &.steel{
+        color: $steel;
+      }
+    
+      &.water{
+        color: $water;
+      }
+    
+      &.electric{
+        color: $electric;
+      }
+    
+      &.ghost{
+        color: $ghost;
+      }
+    
+      &.fighting{
+        color: $fighting;
+      }
+    
+      &.psychic{
+        color: $psychic;
+      }
+    
+      &.rock{
+        color: $rock;
+      }
+    
+      &.dark{
+        color: $dark;
+      }
+    
+      &.ground{
+        color: $ground;
+      }
+    
+      &.bug{
+        color: $bug;
+      }
+    
+      &.dragon{
+        color: $dragon;
+      }    
+
+      span {
+        color: $grey;
+      }
+    }
+
+    .rank {
+      color: $grey;
+      font-size: 2rem;
+    }
+  }
+}
